@@ -11,7 +11,7 @@ path('register/', views.User, name='register'),
     # path for login
      path(route='login', view=views.login_user, name='login'),
     # path for dealer reviews view
-
+         path(route='get_cars', view=views.get_cars, name ='getcars'),
     # path for add a review view
 
     # Add the logout path
